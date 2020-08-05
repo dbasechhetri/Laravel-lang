@@ -12,11 +12,11 @@ return [
     |
     */
 
-    'accepted'        => ':attribute स्वीकार गरिएको हुनुपर्छ।',
-    'active_url'      => ':attribute URL अमान्य छ।',
-    'after'           => ':attribute को मिति :date भन्दा पछि हुनुपर्छ।',
-    'after_or_equal'  => 'The :attribute must be a date after or equal to :date.',
-    'alpha'           => ':attribute मा अक्षरहरु मात्र हुनसक्छ।',
+    'accepted'        => 'विशेषता: स्वीकार गरिएको हुनुपर्छ।',
+    'active_url'      => 'विशेषता: URL अमान्य छ।',
+    'after'           => 'विशेषता: को मिति भन्दा पछि हुनुपर्छ।',
+    'after_or_equal'  => 'विशेषता: मिति पछाडि वा बराबर मिति हुनुपर्दछ।',
+    'alpha'           => 'विशेषता: मा अक्षरहरु मात्र हुनसक्छ।',
     'alpha_dash'      => ':attribute मा अक्षर, संख्या र ड्यासहरू मात्र हुनसक्छ।',
     'alpha_num'       => ':attribute मा अक्षर र संख्याहरू मात्र हुनसक्छ।',
     'array'           => ':attribute array हुनुपर्छ।',
@@ -108,7 +108,7 @@ return [
         'string'  => ':attribute :size वर्णको हुनुपर्छ।.',
         'array'   => ':attribute मा :size आइटम हुनुपर्छ।',
     ],
-    'starts_with' => 'The :attribute must start with one of the following: :values.',
+    'starts_with' => 'विशेषता: निम्न मध्ये एकसँग सुरू हुनुपर्दछ: मानहरू।',
     'string'      => ':attribute string हुनुपर्छ।',
     'timezone'    => ':attribute मान्य समय क्षेत्र हुनुपर्छ।',
     'unique'      => 'यो :attribute पहिले नै लिई सकेको छ।',
@@ -144,5 +144,35 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'name'                  => 'नाम',
+        'username'              => "प्रयोगकर्ता नाम",
+        'email'                 => 'इ-मेल ठेगाना',
+        'first_name'            => 'पहिलो नाम',
+        'last_name'             => 'थर',
+        'password'              => 'पासवर्ड',
+        'password_confirmation' => 'पासवर्ड कन्फर्मेसन',
+        'city'                  => 'शहर'
+        'country'               => 'देश',
+        'address'               => 'ठेगाना',
+        'phone'                 => 'फाेन',
+        'mobile'                => 'मोबाइल',
+        'age'                   => 'उमेर',
+        'sex'                   => 'लिङ्गं',
+        'gender'                => 'लिङ्गं',
+        'day'                   => 'दिन',
+        'month'                 => 'महिना',
+        'year'                  => 'वर्ष',
+        'hour'                  => 'घण्टा',
+        'minute'                => 'मिनेट',
+        'second'                => 'सेकन्ड',
+        'title'                 => 'शीर्षक',
+        'content'               => 'सामग्री',
+        'description'           => 'वर्णन',
+        'excerpt'               => 'अंश',
+        'date'                  => 'मिती',
+        'time'                  => 'समय',
+        'available'             => 'उपलब्ध छ',
+        'size'                  => 'आकार',
+    ],
 ];
